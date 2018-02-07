@@ -1,0 +1,77 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+}
+
+
+
+
+/* -----------------------------------------------------
+Projects
+-------------------------------------------------------- */
+.carousel {
+  overflow: hidden;
+}
+
+.image-wrapper {
+  display: flex;
+  transition: all .3s ease-in-out;
+}
+
+.image-wrapper img {
+  align-self: center;
+}
+
+.carousel-indicators {
+  text-align: center;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 2px solid #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: white;
+  transition: all .3s ease-in-out;
+}
+
+.carousel-indicators .active {
+  background-color: #2C3E50;
+  border: 2px solid #2C3E50;
+}
+
+/* -----------------------------------------------------
+Lightbox
+-------------------------------------------------------- */
+.lightbox {
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-content: center;
+}
+
+.lightbox img {
+  align-self: center;
+}
+
+/* -----------------------------------------------------
+Testimonials
+-------------------------------------------------------- */
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  display: none;
+}
+
+blockquote:first-of-type {
+  display: block;
+}
