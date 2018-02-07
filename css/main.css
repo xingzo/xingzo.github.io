@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -5,8 +10,14 @@ body {
 }
 
 
-
-
+/* -----------------------------------------------------
+Layout
+-------------------------------------------------------- */
+.content-wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 /* -----------------------------------------------------
 Projects
 -------------------------------------------------------- */
@@ -21,14 +32,17 @@ Projects
 
 .image-wrapper img {
   align-self: center;
+
 }
 
 .carousel-indicators {
   text-align: center;
+  position: relative;
+  bottom:auto;
 }
 
 .carousel-indicators li {
-  display: inline-block;
+  display: block;
   width: 15px;
   height: 15px;
   cursor: pointer;
@@ -43,6 +57,31 @@ Projects
   background-color: #2C3E50;
   border: 2px solid #2C3E50;
 }
+
+
+
+
+/* -----------------------------------------------------
+2nd nav
+-------------------------------------------------------- */
+
+#nav2{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* -----------------------------------------------------
 Lightbox
