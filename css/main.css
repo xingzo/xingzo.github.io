@@ -91,6 +91,11 @@ Projects
 
 }
 
+/* .image-wrapper p {
+  align-self: center;
+
+} */
+
 .carousel-indicators {
   text-align: center;
   position: relative;
@@ -115,7 +120,10 @@ Projects
 }
 
 
-
+.col{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
 
 /* -----------------------------------------------------
 2nd nav
