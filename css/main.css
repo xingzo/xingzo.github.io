@@ -2,6 +2,62 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* -----------------------------------------------------
+Header
+-------------------------------------------------------- */
+
+#logo{
+  width: 121px;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 0 2.5rem;
+  background-color: #212121;
+  color: white;
+}
+
+/* -----------------------------------------------------
+Nav
+-------------------------------------------------------- */
+
+nav {
+  padding: 1rem 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #212121;
+  text-align: center;
+  word-spacing: 2em;
+}
+
+nav a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .02em;
+  display: inline-block;
+
+}
+
+.nav-links a:hover {
+  color: rgb(24, 188, 156);
+}
+
+nav .content-wrapper {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -75,11 +131,52 @@ Projects
 
 
 
+/* -----------------------------------------------------
+HOME PAGE MAIN CONTENT
+-------------------------------------------------------- */
+
+.work-container{
+  margin: 0 10em;
+  text-align: center;
+
+
+}
+
+.work-container div{
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+.website-mockup{
+
+  width: 420px;
+}
 
 
 
+.masonry {
+	column-count: 3;
+	width: 100%;
+  padding: 0 10em;
+	/* margin: 64px 0 0;
+	margin: 4rem 0 2rem; */
+	/* padding-bottom: 0; */
+}
 
+.masonry img {
+	cursor: pointer;
+  width: 100%;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin-bottom: 16px;
+	margin-bottom: 1rem;
+}
 
+.masonry img:hover {
+	opacity: .6;
+}
 
 
 
