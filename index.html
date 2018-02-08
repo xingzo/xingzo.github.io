@@ -17,7 +17,7 @@
 
 
 <!-- NAVIGATION -->
-    <nav>
+    <!-- <nav>
       <a id = "tops" href="#">Home</a>
       <a id = "motion" href="#">Motion</a>
       <a id = "stills" href="#">Stills</a>
@@ -25,6 +25,42 @@
       <a id = "graphics" href="#">Graphics</a>
       <a id = "shop" href="https://yml.bigcartel.com">Shop</a>
       <a id = "contact" href="#">Contact</a>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
     </nav>
 
 <!-- SLIDER -->
@@ -91,14 +127,13 @@
       </div>
       <div class="row content-wrapper">
         <div class="col">
-
           <img class = "website-mockup" src="assets/images/mackbook1.png" alt="website image">
-
         </div>
       </div>
 
       <div id = "nav2">
-        <a id = "about" href="#">More Websites</a>
+        <button class="btn btn--action">More Websites</button>
+        <!-- <a id = "about" href="#">More Websites</a> -->
       </div>
 
 
@@ -122,6 +157,7 @@
     </main>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
   </body>
