@@ -168,6 +168,17 @@ Projects
 HOME PAGE MAIN CONTENT
 -------------------------------------------------------- */
 
+#about-pic{
+  width: 100%;
+  border-radius: 50%;
+}
+#about-text{
+  display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
 .work-container{
   margin: 0 10em;
   text-align: center;
@@ -231,6 +242,8 @@ Button
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  background-color: white;
+  color: #212121;
 
 
 
@@ -257,6 +270,38 @@ btn:hover {
   background-color: #b1b1b1;
   /* color: white; */
 
+}
+
+
+
+/* FOOOTER
+   ================================================================ */
+
+footer{
+  text-align:center;
+  /* background-color: #cdf3f6; */
+  color : #44545e;
+}
+
+footer a{
+  color : #44545e;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.social-media{
+  display: inline-block;
+  padding: 20px;
+  letter-spacing: 1em;
+}
+
+.copyright{
+  border-top: 1px solid black;
+  font-size: .5em;
+  padding: 10px;
+  color: #b1b1b1;
+  text-transform: uppercase;
 }
 
 

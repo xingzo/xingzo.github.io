@@ -80,7 +80,7 @@
           <div class="carousel">
             <div class="image-wrapper">
 
-              <img src="assets/images/slider1.png" alt="slider1 image">
+              <img src="assets/images/slider3.png" alt="slider3 image">
               <img src="assets/images/slider2.png" alt="slider2 image">
               <img src="assets/images/slider3.png" alt="slider3 image">
             </div>
@@ -101,8 +101,9 @@
 
 <!-- Modal -->
 <!-- Large modal -->
+<div class = "nav2">
 <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">About Me</button>
-
+</div>
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -112,7 +113,8 @@
       </div>
 
       <div class="modal-body">
-        <div class = "col-md-6">
+        <div class = "row">
+        <div id = "about-text" class = "col-md-6">
         <p>
           Seasoned artist with over 10+ years experience in motion/still design transitioning into the technology industry. I enjoy drawing and working with all mediums of art on my free time.
         </p>
@@ -124,10 +126,15 @@
           Programming Skills : HTML, CSS, JavaScript, jQuery, C++, Java, SQL, GitHub, Node.js, Angular, Ruby on Rails, React, AJAX, OOP
         </p>
 
-</div>
+      </div>
+      <div class = "col">
+        <img id = "about-pic" src="assets/images/about1.jpg" alt="kingsley headshot">
+
+      </div>
+    </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-  <button type="button" class="btn btn-primary">Save changes</button>
+  <button type="button" class="btn btn-primary">Book Me</button>
 </div>
     </div>
   </div>
@@ -135,10 +142,10 @@
 </div>
 
 
-      <div class = "nav2">
-        <button class="btn btn--action">ABOUT XINGZO</button>
-        <!-- <a id = "about" href="#">About</a> -->
-      </div>
+      <!-- <div class = "nav2">
+        <button class="btn btn--action">ABOUT me</button>
+
+      </div> -->
 
 <!-- MAIN CONTENT -->
 
@@ -215,6 +222,24 @@
 
 
     </main>
+
+    <footer>
+      <div class = "wrap">
+        <div class = "social-media">
+          <a href = "#" > <i class="fa fa-facebook-square" aria-hidden = "true"> </i></a>
+          <a href = "#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  <a href = "#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="btn">
+        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Email me</a>
+      </div>
+      <div class="btn">
+        <a href="tel:14088061540" target="_top">Call me</a>
+      </div>
+        <p class = "copyright"> &copy; 2018 Kingsley Nyaosi </p>
+
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
