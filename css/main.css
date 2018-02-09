@@ -62,12 +62,31 @@ nav .content-wrapper {
   flex-wrap: wrap; */
 }
 
+.navbar{
+  background-color: #212121
+}
+
+/* How to center the bootstrap nav*/
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
 
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -135,7 +154,7 @@ Projects
 2nd nav
 -------------------------------------------------------- */
 
-#nav2{
+.nav2{
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -239,6 +258,7 @@ btn:hover {
   /* color: white; */
 
 }
+
 
 
 

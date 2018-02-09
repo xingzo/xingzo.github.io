@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#nav-scroll" data-offset="0">
 
-    <header>
+    <header id = "top">
       <img id = "logo" src="assets/images/logo1.png" alt="xingzo logo">
 
     </header>
@@ -27,8 +27,7 @@
       <a id = "contact" href="#">Contact</a>
     </nav> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <nav id = "nav-scroll" class="navbar sticky-top navbar-expand-lg navbar-dark ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,14 +35,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#top">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#videos">Motion</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#websites">Web</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stills">Stills</a>
+          </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              GFX
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -53,13 +59,13 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="https://yml.bigcartel.com">Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">freebies</a>
           </li>
         </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
       </div>
     </nav>
 
@@ -91,18 +97,21 @@
 
 <!-- 2ND NAV -->
 
-      <div id = "nav2">
+      <div class = "nav2">
         <a id = "about" href="#">About</a>
       </div>
 
 <!-- MAIN CONTENT -->
-    <section id = "work-container">
+
+<div >
+    <!-- <section id = "work-container"> -->
+
 
       <!-- videos -->
-  <div class="row content-wrapper">
+  <div id = "videos" class="row content-wrapper">
     <div class="col">
       <h4>Jayflash - clouds</h4>
-      <iframe width="687" height="396" src="https://www.youtube.com/embed/GhZt0gJmf7g" showinfo=0 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="687" height="396" src="https://www.youtube.com/embed/GhZt0gJmf7g"frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
   </div>
 
@@ -113,11 +122,15 @@
     </div>
   </div>
 
-  <div id = "nav2">
-    <a id = "about" href="#">More Videos</a>
+  <div class = "nav2">
+    <button class="btn btn--action">More Videos</button>
+
   </div>
+
+
 
   <!-- websites -->
+  <section id = "websites">
       <div class="row content-wrapper">
         <div class="col">
 
@@ -131,13 +144,19 @@
         </div>
       </div>
 
-      <div id = "nav2">
+      <div class = "nav2">
         <button class="btn btn--action">More Websites</button>
         <!-- <a id = "about" href="#">More Websites</a> -->
       </div>
 
+    </section>
+
 
   <!-- STILLS/GFX -->
+
+  <section id = "stills">
+    <!-- <div class="row content-wrapper">
+      <div class="col"> -->
       <div class="masonry">
 				<img src="assets/images/gfx1.png" alt="">
         <img src="assets/images/gfx1.png" alt="">
@@ -145,14 +164,16 @@
         <img src="assets/images/gfx1.png" alt="">
         <img src="assets/images/gfx1.png" alt="">
         <img src="assets/images/gfx1.png" alt="">
+      <!-- </div>
+    </div> -->
 
 			</div>
-
-
-
-
-
     </section>
+
+    </div>
+
+    <!-- </section> -->
+
 
     </main>
 

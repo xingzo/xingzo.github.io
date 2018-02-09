@@ -99,3 +99,5 @@ setInterval(function () {
     $('blockquote').eq(quoteCounter).fadeIn();
   });
 }, 7000);
+
+$('body').scrollspy({ target: '#nav-scroll' })
