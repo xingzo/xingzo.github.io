@@ -98,6 +98,10 @@ Layout
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+
+
+
 /* -----------------------------------------------------
 Projects
 -------------------------------------------------------- */
@@ -151,7 +155,7 @@ Projects
 }
 
 /* -----------------------------------------------------
-2nd nav
+2nd nav (BUTTONS)
 -------------------------------------------------------- */
 
 .nav2{
@@ -223,6 +227,8 @@ text-align: center;
 }
 
 
+
+
 /* -----------------------------------------------------
 Button
 -------------------------------------------------------- */
@@ -242,34 +248,45 @@ Button
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  background-color: white;
+  background-color: #e6d3c2;
   color: #212121;
 
-
-
-  &:active {
-    transform: translateY(1px);
-    box-shadow: inset 0 3px 0 0 rgba(0,0,0,0.15);
-  }
-
-  &:focus {
+  /* &:focus {
     outline: none;
     background-color: #b1b1b1;
-  }
-
-  &--action {
-    background-color: #739600;
-    color: white;
-  }
+  } */
 
   }
 }
 
-btn:hover {
+.btn:hover{
+  background-color: #e2c08d;
+
+}
+.btn-action:hover {
+  background-color: #e2c08d;
+
+}
+
+.btn-primary:hover {
   box-shadow: inset 0 -3px 0 rgba(0,0,0,0.15);
-  background-color: #b1b1b1;
+  background-color: #212121;
+  /* color: white; */
+  color: #e2c08d;
   /* color: white; */
 
+}
+
+.btn a{
+  text-decoration: none;
+}
+.btn a:hover{
+  color: white;
+}
+
+.modal-footer button{
+  background-color: #212121;
+  color: #e2c08d;
 }
 
 
@@ -306,7 +323,15 @@ footer a{
 
 
 
+/* -----------------------------------------------------
+Make the youtube videos responsive
+-------------------------------------------------------- */
 
+.embed-responsive{
+
+  max-width: 687px;
+  margin: 0 auto;
+}
 
 
 
@@ -329,8 +354,10 @@ Lightbox
   align-self: center;
 }
 
+
+
 /* -----------------------------------------------------
-Testimonials
+Skills Animation
 -------------------------------------------------------- */
 blockquote {
   margin-left: 0;
@@ -340,4 +367,9 @@ blockquote {
 
 blockquote:first-of-type {
   display: block;
+}
+
+/* center my name in the modal */
+.modal-title{
+  margin: 0 auto;
 }

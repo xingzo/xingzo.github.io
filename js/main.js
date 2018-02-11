@@ -84,7 +84,7 @@ function hideLightbox () {
 
 
 // --------------------------
-// Quotes on Timer ----------
+// SKILLS ANIMATION ----------
 // --------------------------
 var quoteCounter = 0;
 var quoteLength = $('blockquote').length;
@@ -98,6 +98,7 @@ setInterval(function () {
     }
     $('blockquote').eq(quoteCounter).fadeIn();
   });
-}, 7000);
+}, 1600);
 
+// call a function scrollsspy everytime we scroll
 $('body').scrollspy({ target: '#nav-scroll' })
