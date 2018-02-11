@@ -1,0 +1,63 @@
+#redCar{
+  width: 150px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+
+
+}
+
+
+#blueCar{
+  width: 150px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+
+
+}
+
+
+#racer-game-button{
+  position: relative;
+
+}
+
+#actual-racergame {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+#car1{
+  width: 150px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+
+}
+
+#car2{
+  width: 150px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+
+}
+
+.game-area-hidden{
+  display: none;
+}
+
+.race-game-area-revealed{
+  display: block;
+}

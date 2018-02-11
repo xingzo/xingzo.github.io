@@ -5,7 +5,9 @@
     <title>Xingzo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="racer-game/racer-game.css">
     <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body data-spy="scroll" data-target="#nav-scroll" data-offset="0">
 
@@ -198,9 +200,28 @@
 
 
   <!-- websites -->
+
+
+
+
+
     <section id = "websites">
       <div class="content-wrapper">
         <div class="col">
+          <button class = "btn" id = "racer-game" > start game </button>
+  <!-- RACE-CAR-GAME -->
+          <!-- cars -->
+          <section id = "race-game-area" class = "game-area-hidden">
+
+          <div id ="car1">
+            <img id="redCar" src="racer-game/images/redcar.png"></img>
+          </div>
+          <div id="car2">
+            <img id="blueCar" src="racer-game/images/bluecar.png"></img>
+          </div>
+
+        </section>
+
           <img class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
         </div>
       </div>
@@ -210,6 +231,9 @@
           <img class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
         </div>
       </div>
+
+
+
       <!-- iphone-mockups for mobile version -->
       <div class="iphone-mockup">
         <h5>racer game</h5>
@@ -269,6 +293,7 @@
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="racer-game/racer-game.js"></script>
     <script src="js/main.js"></script>
 
   </body>
