@@ -92,10 +92,6 @@ nav .content-wrapper {
   padding-bottom: 4.5em:;
 }
 
-ul.carousel-indicators{
-  /* margin: auto; */
-}
-
 
 
 body {
@@ -389,3 +385,38 @@ blockquote:first-of-type {
 .modal-title{
   margin: 0 auto;
 }
+
+.iphone-mockup{
+display: none;
+}
+
+.iphone-mockup img{
+  width: 400px;
+}
+
+
+/* -----------------------------------------------------
+MEDIA QUiERIES
+-------------------------------------------------------- */
+
+
+ @media screen and (max-width: 741px) {
+
+      .masonry {
+      	column-count: 1;
+      	width: 100%;
+        padding: 2.5em;
+      }
+
+
+    }
+
+    @media screen and (max-width: 686px) {
+      .website-mockup{
+        display: none;
+      }
+      .iphone-mockup{
+        text-align: center;
+        display: block;
+        padding-bottom: 2em;
+      }
