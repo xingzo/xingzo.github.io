@@ -80,6 +80,22 @@ nav .content-wrapper {
     float:none;
 }
 
+.dropdown-menu{
+
+  word-spacing: .25em;
+
+}
+
+.carousel-indicators{
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 4.5em:;
+}
+
+ul.carousel-indicators{
+  /* margin: auto; */
+}
+
 
 
 body {
