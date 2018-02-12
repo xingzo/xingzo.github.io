@@ -131,23 +131,24 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
 ## Unsolved Problems:		
 		Feel free to check out my trello board for the about me site as this part gets updated frequently
 
-		`https://trello.com/b/zzB1qm9i/about-me-site`
+		https://www.trello.com/b/zzB1qm9i/about-me-site
 
 
 
 ## Biggest Wins/Challenges
 
 #### Spinning Crowns logo1
-			<img src="assets/videos/logotrial.gif">
+			https://github.com/xingzo/xingzo.github.io/blob/master/assets/videos/logotrial.gif
+		
 
 #### Responsive website mockups
 
 			Link for Macbook Mockup (PSD) ->
-			`https://www.pixeden.com/psd-mock-up-templates/the-new-macbook-psd-mockup`
+			https://www.pixeden.com/psd-mock-up-templates/the-new-macbook-psd-mockup
 
 
 			Link for iPhone Mockup (Sketch) ->
-			`http://goodmockups.com/free-iphone-x-10-sketch-mockup/`
+			https://goodmockups.com/free-iphone-x-10-sketch-mockup/
 
 
 ## Snippets:
