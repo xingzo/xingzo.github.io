@@ -36,14 +36,14 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 
 	Modal appears when "About Me" button is clicked
 	- Classes:
-		- .modal (actual modal)
-		- .fade (used as a transition effect, fade in the modal)
-		- .bd-example-modal-lg (used for sizing, lg could be changed to sm)
-		- .modal-body, .modal-header, modal-title, modal-footer,
+		- `.modal` (actual modal)
+		- `.fade` (used as a transition effect, fade in the modal)
+		- `.bd-example-modal-lg` (used for sizing, lg could be changed to sm)
+		- `.modal-body`, `.modal-header`, `modal-title`, `modal-footer`
 
 - Responsiveness
 
-Bootstrap made it easier to implement responsiveness across all devices but not all parts of the site rely on bootstrap for responsiveness
+	Bootstrap made it easier to implement responsiveness across all devices but not all parts of the site rely on bootstrap for responsiveness
 
 	- Responsive youtube videos
 	- Classes:
@@ -56,7 +56,6 @@ Bootstrap made it easier to implement responsiveness across all devices but not 
 
 
 #### JavaScript/jQuery
-
 JS and jQuery were necessary to manipulate the DOM and specifically in these areas:
 
 	- Skills animation ( can be found in the about me modal( the icons fading in and out effect))
@@ -97,7 +96,7 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
  	- I worked individually as a front ent web developer and designer
 
 #### Duration
-	- Still ongoing...
+	- Still ongoing
 
 #### Competitive Research
 
