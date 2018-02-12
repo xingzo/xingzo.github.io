@@ -1,4 +1,4 @@
-# ![](https://xingzo.github.io/assets/images/xingzo crown white official watermark sm.png) Kingsley Nyaosi About Me site
+# ![](https://xingzo.github.io/assets/images/xingzo-crown-white-sm.png) Kingsley Nyaosi About Me site
 
 ## Overview
 - In this morning's session, we'll explore the different technologies used, process/approach, unsolved problems and some wins and challenges that went along in creating my personal about me portfolio site.
