@@ -12,29 +12,27 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 
 - Nav Bar
 
-Completely bootstrap
+	Completely bootstrap
 
 	Toggle to collapse the nav into a hamburger
-	- Classes:
+	- Classes
 		- .collapse ( actual data-toggle)
 		- .navbar-toggler ( applies styling ( adds the hamburger icon))
 		- .nav-link (applied to every link or nav item)
 
 	Highlight section when user scrolls to the corresponding section of the page
-	-	Functions:
+	- Functions
 		- scrollspy()…only section of the site that uses bootstrap JavaScript file
 
-		// Call a function scrollspy each time we scroll and target #nav-scroll |
+		- Call a function scrollspy each time we scroll and target #nav-scroll |
 		this is to highlight the current section
 
-		```js
-		$('body').scrollspy({ target: '#nav-scroll' })
-		```
+	 `$('body').scrollspy({ target: '#nav-scroll' })`
 
 
 - Modal
 
-Completely bootstrap
+	Completely bootstrap
 
 	Modal appears when "About Me" button is clicked
 	- Classes:
@@ -47,7 +45,7 @@ Completely bootstrap
 
 Bootstrap made it easier to implement responsiveness across all devices but not all parts of the site rely on bootstrap for responsiveness
 
-	Responsive youtube videos
+	- Responsive youtube videos
 	- Classes:
 		- .embed-responsive
 		- .col(uses flex boxes, grow)
@@ -135,12 +133,12 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
 ## Biggest Wins/Challenges:
 
 #### Spinning Crowns logo1
-			[https://github.com/xingzo/xingzo.github.io/blob/master/assets/videos/logotrial.gif](https://github.com/xingzo/xingzo.github.io/blob/master/assets/videos/logotrial.gif))
+			https://github.com/xingzo/xingzo.github.io/blob/master/assets/videos/logotrial.gif
 
 #### Responsive website mockups
 
 			Link for Macbook Mockup (PSD) ->
-			[https://www.pixeden.com/psd-mock-up-templates/the-new-macbook-psd-mockup](https://www.pixeden.com/psd-mock-up-templates/the-new-macbook-psd-mockup))
+			https://www.pixeden.com/psd-mock-up-templates/the-new-macbook-psd-mockup)
 
 
 			Link for iPhone Mockup (Sketch) ->
