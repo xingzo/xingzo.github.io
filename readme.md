@@ -16,13 +16,13 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 
 	Toggle to collapse the nav into a hamburger
 	- Classes
-		- .collapse ( actual data-toggle)
-		- .navbar-toggler ( applies styling ( adds the hamburger icon))
-		- .nav-link (applied to every link or nav item)
+		- `.collapse` ( actual data-toggle)
+		- `.navbar-toggler `( applies styling ( adds the hamburger icon))
+		- `.nav-link` (applied to every link or nav item)
 
 	Highlight section when user scrolls to the corresponding section of the page
 	- Functions
-		- scrollspy()…only section of the site that uses bootstrap JavaScript file
+		- `scrollspy()`…only section of the site that uses bootstrap JavaScript file
 
 		- Call a function scrollspy each time we scroll and target #nav-scroll |
 		this is to highlight the current section
@@ -47,8 +47,8 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 
 	- Responsive youtube videos
 	- Classes:
-		- .embed-responsive
-		- .col(uses flex boxes, grow)
+		- `.embed-responsive`
+		- `.col` (uses flex boxes, grow)
 
 
 	Other bootstrap responsive use cases
@@ -60,13 +60,13 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
 
 	- Skills animation ( can be found in the about me modal( the icons fading in and out effect))
 		- Functions:
-			- setInterval()
-			- fadeout()
-			- fadein()
+			- `setInterval()`
+			- `fadeout()`
+			- `fadein()`
 
 	- Carousel that displays recent projects at the top of the home page
 
-	- Scrollspy mentioned above in the nav bar
+	- `scrollspy()` mentioned above in the nav bar
 
 	- Racer game
 
@@ -84,36 +84,39 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
 ## Process/Approach:
 
 #### Problem
-	- Owner of a surplus of creative content but missing a professional online presence to exhibit their work to the public
-	- Lack full control of the front/back end of my sites due to utilizing wordpress
-	- Project 0 For WDI required either an about me site or racer game
+	Owner of a surplus of creative content but missing a professional online presence to exhibit their work to the public
+
+ 	Lack full control of the front/back end of my sites due to utilizing wordpress
+
+	Project 0 For WDI required either an about me site or racer game
 
 #### Solution
-	- Create an eye catching portfolio site and update it as I go along the WDI course to showcase all the skills I will amass such as JavaScript and MERN stacks
-	- Picked the about me option for Project 0
+	Create an eye catching portfolio site and update it as I go along the WDI course to showcase all the skills I will amass such as JavaScript and MERN stacks
+
+	Picked the about me option for Project 0
 
 #### Project Role
- 	- I worked individually as a front ent web developer and designer
+  I worked individually as a front ent web developer and designer
 
 #### Duration
-	- Still ongoing
+	Still ongoing
 
 #### Competitive Research
 
-	- Competitive analysis of 3 other visual artists and web developers in my network
+ Competitive analysis of 3 other visual artists and web developers in my network
 		- https://www.psdnym.com/
 		- https://www.patricianderson.com/
 		- https://www.misslaurairene.com
 		- All my fellow WDI classmates personal websites
 
-	- User Research (people who will be visiting my site)
+ User Research (people who will be visiting my site)
 		- Hiring Managers
 		- Friends and Family
 		- Personal clients
 		- Prospect clients
 		- Disabled users
 
-	- Other Steps
+ Other Steps
 		- The base template I chose as a prototype was www.psdnym.com
 		- I then conducted wire Frames based of that site and added some of my own features
 		- Created a repo on GIT and started Semantic HTML to layout on page on Atom
