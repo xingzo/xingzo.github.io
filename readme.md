@@ -58,17 +58,18 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 #### JavaScript/jQuery
 JS and jQuery were necessary to manipulate the DOM and specifically in these areas
 
-Skills animation ( can be found in the about me modal( the icons fading in and out effect))
-	- Functions:
+- Skills animation ( can be found in the about me modal( the icons fading in and out effect))
+
+	- Functions
 			- `setInterval()`
 			- `fadeout()`
 			- `fadein()`
 
- Carousel that displays recent projects at the top of the home page
+ - Carousel that displays recent projects at the top of the home page
 
- `scrollspy()` mentioned above in the nav bar
+ - `scrollspy()` mentioned above in the nav bar
 
-	Racer game
+	- Racer game
 
 #### HTML/css
 	Necessary Components in every website
@@ -104,12 +105,14 @@ Skills animation ( can be found in the about me modal( the icons fading in and o
 #### Competitive Research
 
  Competitive analysis of 3 other visual artists and web developers in my network
+
 		- https://www.psdnym.com/
 		- https://www.patricianderson.com/
 		- https://www.misslaurairene.com
 		- All my fellow WDI classmates personal websites
 
  User Research (people who will be visiting my site)
+
 		- Hiring Managers
 		- Friends and Family
 		- Personal clients
@@ -132,7 +135,7 @@ Skills animation ( can be found in the about me modal( the icons fading in and o
 
 
 
-## Biggest Wins/Challenges:
+## Biggest Wins/Challenges
 
 #### Spinning Crowns logo1
 			https://github.com/xingzo/xingzo.github.io/blob/master/assets/videos/logotrial.gif
@@ -147,14 +150,14 @@ Skills animation ( can be found in the about me modal( the icons fading in and o
 			http://goodmockups.com/free-iphone-x-10-sketch-mockup/
 
 
-		Snippets
-			contact me
+## Snippets:
+		Contact me
 
-```html
+		```html
 			<div class="btn btn-primary">
 				<a href="mailto:kingsleynyaosi@gmail.com?Subject=Hello%20world" >Email me</a>
 			</div>
 			<div class="btn btn-primary">
 				 <a href="tel:18325733473" >Call me</a>
 			</div>
-```
+			```
