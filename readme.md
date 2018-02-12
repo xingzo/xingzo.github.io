@@ -85,22 +85,22 @@ JS and jQuery were necessary to manipulate the DOM and specifically in these are
 ## Process/Approach:
 
 #### Problem
-	Owner of a surplus of creative content but missing a professional online presence to exhibit their work to the public
+	- Owner of a surplus of creative content but missing a professional online presence to exhibit their work to the public
 
- 	Lack full control of the front/back end of my sites due to utilizing wordpress
+ 	- Lack full control of the front/back end of my sites due to utilizing wordpress
 
-	Project 0 For WDI required either an about me site or racer game
+	- Project 0 For WDI required either an about me site or racer game
 
 #### Solution
-	Create an eye catching portfolio site and update it as I go along the WDI course to showcase all the skills I will amass such as JavaScript and MERN stacks
+	- Create an eye catching portfolio site and update it as I go along the WDI course to showcase all the skills I will amass such as JavaScript and MERN stacks
 
-	Picked the about me option for Project 0
+	- Picked the about me option for Project 0
 
 #### Project Role
-  I worked individually as a front ent web developer and designer
+  - I worked individually as a front ent web developer and designer
 
 #### Duration
-	Still ongoing
+	- Still ongoing
 
 #### Competitive Research
 
