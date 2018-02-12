@@ -56,19 +56,19 @@ Utilized mainly the bootstrap.min.css file to apply responsive styling all over 
 
 
 #### JavaScript/jQuery
-JS and jQuery were necessary to manipulate the DOM and specifically in these areas:
+JS and jQuery were necessary to manipulate the DOM and specifically in these areas
 
-	- Skills animation ( can be found in the about me modal( the icons fading in and out effect))
-		- Functions:
+Skills animation ( can be found in the about me modal( the icons fading in and out effect))
+	- Functions:
 			- `setInterval()`
 			- `fadeout()`
 			- `fadein()`
 
-	- Carousel that displays recent projects at the top of the home page
+ Carousel that displays recent projects at the top of the home page
 
-	- `scrollspy()` mentioned above in the nav bar
+ `scrollspy()` mentioned above in the nav bar
 
-	- Racer game
+	Racer game
 
 #### HTML/css
 	Necessary Components in every website
