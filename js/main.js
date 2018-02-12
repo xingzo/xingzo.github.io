@@ -59,12 +59,13 @@ function transitionSlides () {
 // --------------------------
 // Lightbox -----------------
 // --------------------------
-$('.carousel').on('click', 'img', function () {
+$('.masonry').on('click', 'img', function () {
   // Clear Timer for Carousel so that it stops switching slides
-  clearInterval(carouselTimer);
+  // clearInterval(carouselTimer);
 
   // Find out which image the user wants to view in the lightbox
   var imageSrc = $(this).attr('src');
+  console.log(imageSrc);
 
   $('.lightbox img').attr('src', imageSrc);
 

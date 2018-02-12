@@ -219,7 +219,10 @@ text-align: center;
 .masonry {
 	column-count: 2;
 	width: 100%;
-  padding: 0 10em;
+  padding-top: 2.5em ;
+  padding-left: 10em;
+  padding-right: 10em;
+
 	/* margin: 64px 0 0;
 	margin: 4rem 0 2rem; */
 	/* padding-bottom: 0; */
@@ -360,10 +363,12 @@ Lightbox
   display: none;
   justify-content: center;
   align-content: center;
+  padding: 0 10em;
 }
 
 .lightbox img {
   align-self: center;
+  width: 100%;
 }
 
 
@@ -407,11 +412,14 @@ MEDIA QUiERIES
       	width: 100%;
         padding: 2.5em;
       }
+      .lightbox{
+        padding: 0 2.5em;
+      }
 
     }
 
     @media screen and (max-width: 686px) {
-      .website-mockup{
+      .website-mockup, .website-title{
         display: none;
       }
       .iphone-mockup{

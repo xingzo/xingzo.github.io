@@ -1,25 +1,26 @@
 #redCar{
-  width: 150px;
+  width: 100px;
   position: relative;
-  top: 10px;
-  left: 0px;
+  top: -10px;
+  left: 234px;
 
 
 }
 
 
 #blueCar{
-  width: 150px;
+  width: 100px;
   position: relative;
-  top: 10px;
-  left: 0px;
+  top: -10px;
+  left: 234px;
 
 
 }
 
 
-#racer-game-button{
-  position: relative;
+#racer-game{
+  display: block;
+  margin: 0 auto;
 
 }
 
@@ -39,18 +40,18 @@
 
 
 #car1{
-  width: 150px;
+  width: 100px;
   position: relative;
-  top: 10px;
-  left: 0px;
+  top: -10px;
+  left: 234px;
 
 }
 
 #car2{
-  width: 150px;
+  width: 100px;
   position: relative;
-  top: 10px;
-  left: 0px;
+  top: -10px;
+  left: 234px;
 
 }
 
@@ -59,5 +60,5 @@
 }
 
 .race-game-area-revealed{
-  display: block;
+  display: inline-block;
 }
