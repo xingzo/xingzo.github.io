@@ -209,16 +209,26 @@
           <button class = "btn" id = "racer-game" > start game </button>
 
   <!-- RACE-CAR-GAME -->
-          <!-- cars -->
+
           <section id = "race-game-area" class = "game-area-hidden">
 
-          <div id ="car1">
-            <img id="redCar" src="racer-game/images/redcar.png"></img>
+            <div id = "are-you-ready" class = "are-you-ready-hidden">
+              <h2> Are you ready </h2>
+
+            </div>
+            <!-- cars -->
+          <div id ="car1" class = "car-hidden">
+            <img id = "red-car" class="redCar" src="racer-game/images/redcar.png"></img>
           </div>
-          <div id="car2">
+          <div id="car2" class = "car-hidden">
             <img id="blueCar" src="racer-game/images/bluecar.png"></img>
 
           </div>
+
+          <!-- right left buttons to swtich cars -->
+          <button id = "switch-button" class = "switch-car-button"> Left </button>
+
+          <img id = "racecar-mockup" class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
 
           </section>
           <img class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
@@ -297,6 +307,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="racer-game/racer-game.js"></script>
     <script type="text/javascript"

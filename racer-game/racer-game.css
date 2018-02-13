@@ -1,8 +1,21 @@
+/* KEEP THIS
+
+
 #redCar{
   width: 100px;
   position: relative;
   top: -10px;
   left: 234px;
+
+
+} */
+
+.redCar{
+  /* width: 100px; */
+   position: relative;
+  top: 90px;
+
+  /* left: 44px; */
 
 
 }
@@ -40,12 +53,22 @@
 
 
 #car1{
-  width: 100px;
+  /* width: 100px; */
   position: relative;
-  top: -10px;
-  left: 234px;
+  /* top: -10px;
+  left: 234px; */
 
 }
+
+.car-ready-position{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: 110px;
+  left: -168px;
+
+}
+
 
 #car2{
   width: 100px;
@@ -60,5 +83,29 @@
 }
 
 .race-game-area-revealed{
+  /* display: inline-block; */
+  /* width: 487px; */
+  width: 100%;
+  margin-top: 3em;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.are-you-ready-hidden{
+  display: none;
+}
+
+.are-you-ready-revealed{
+  display: inline-block;
+}
+
+.car-hidden{
+  display: none;
+}
+
+.car-reveal{
   display: inline-block;
 }
