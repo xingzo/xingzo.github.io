@@ -73,6 +73,7 @@ $('#racer-game').on('click', function (e) {
 $( "#car1" ).click(function() {
   console.log("we in the toggle class");
 
+// put the car in ready position
   $("#red-car").removeClass("redCar");
   $("#red-car").addClass("car-ready-position");
   // $("#car1"  ).toggle( "bounce", { times: 3 }, "slow" );
