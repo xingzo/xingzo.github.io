@@ -1,7 +1,24 @@
 // window.onload = function(){
 //
 //   startGame();
-//   var car1 = document.getElementById('car1');
+  // var car1 = document.getElementById('car1');
+  //
+  //   var car1 = document.getElementById('car1');
+
+    $( document ).ready(function() {
+      console.log(car1)
+
+      var $rcar1 = $("#car1");
+      var $rcar2 = $("#car2");
+        console.log( "document loaded" );
+
+    });
+
+      var $rcar1 = $("#car1");
+      var $rcar2 = $("#car2");
+
+
+
 //   var car2 = document.getElementById('car2');
 //   //set the left to 0 first
 //   document.getElementById("car1").style.left = 0 + "px";
@@ -47,9 +64,13 @@ $('#racer-game').on('click', function (e) {
        // $( "#redCar" ).toggle( "drop" );
 
        // fade in the red car when start button is pressed
-       $('#car1').css('display', 'flex').hide().fadeIn(300, function () {
-         $('body').on('click', hideLightbox);
-       });
+
+       $displayCar($rcar1);
+       // $('#car1').css('display', 'flex').hide().fadeIn(300, function () {
+       //   $('body').on('click', hideLightbox);
+       // });
+
+
 
        $('#racecar-mockup').css('display', 'none').hide().fadeOut(300, function (){
          console.log("we in the fadeout for the mockup function")
@@ -69,6 +90,32 @@ $('#racer-game').on('click', function (e) {
 });
 
 
+var $displayCar = function (car){
+// $car.find('car1')
+console.log(car);
+
+$(car).css('display', 'flex').hide().fadeIn(300, function () {
+  $('body').on('click', hideLightbox);
+});
+
+// $(car).toggleClass("car").next().slideToggle("slow", function() {
+   //      var text = $a.text();
+   //      $a.hasClass('expandB') ? $h3.text(text.replace('-', '+')) : $h3.text(text.replace('+', '-'))
+   // });
+
+
+}
+// var $changeCars = function(){
+// var $a = $(this);
+// var $h3 = $(this).find('h3');
+//          $(this).toggleClass("expandB").next().slideToggle("slow", function() {
+//                  var text = $a.text();
+//                  $a.hasClass('expandB') ? $h3.text(text.replace('-', '+')) : $h3.text(text.replace('+', '-'))
+//             });
+//
+//           }
+
+
 // when we click the car, the game starts
 $( "#car1" ).click(function() {
   console.log("we in the toggle class");
@@ -79,9 +126,18 @@ $( "#car1" ).click(function() {
   // $("#car1"  ).toggle( "bounce", { times: 3 }, "slow" );
 });
 
-
+// how to switch from red to blue challe
  $('#switch-button').on('click', function (){
    console.log("we in the switch car button");
+
+   $("#car2").css('display', 'flex').hide().fadeIn(300, function () {
+     $('body').on('click', hideLightbox);
+
+     $('#car1').css('display', 'none').hide().fadeOut(300, function (){
+       console.log("we in the fadeout for the mockup function")
+     });
+   });
+
 });
 
 // VANILLA
