@@ -21,7 +21,7 @@
 }
 
 
-#blueCar{
+.blueCar{
   /* width: 100px; */
   position: relative;
   top: 90px;
@@ -63,6 +63,15 @@
 .car-ready-position{
   width: 100px;
   height: 50px;
+  position: relative;
+  top: 110px;
+  left: -168px;
+
+}
+
+.car-ready-position2{
+  width: 100px;
+  height: 70px;
   position: relative;
   top: 110px;
   left: -168px;

@@ -5,6 +5,61 @@
   //
   //   var car1 = document.getElementById('car1');
 
+  // VANILLA
+    var car1 = {
+      name : "RED CHALLE",
+      div : document.getElementById('car1'),
+      position: 0
+
+    }
+
+    var car2 = {
+      name : "BLUE CHALLE",
+      div : document.getElementById('car2'),
+      position: 0
+
+    }
+  //
+    //set the left to 0 first
+    car1.div.style.left = 0 + "px";
+    car2.div.style.left = 0 + "px";
+  // ;
+  //
+  function move (car)
+  {
+    if(car.position > 700)
+    {
+      alert(`${car.name} WON`);
+      return;
+
+    }
+
+    else{
+      var currentRedCarPosition = parseInt(car.div.style.left, 10);
+      console.log(currentRedCarPosition);
+      var newRedCarPosition = currentRedCarPosition + 40;
+       car.div.style.left = newRedCarPosition + "px";
+       car.position = newRedCarPosition;
+
+
+    }
+
+
+  }
+
+
+  document.body.addEventListener('keyup',function(event){
+
+    if(event.key === 'ArrowRight'){
+      console.log('CAR1');
+      move(car1);
+    } else if(event.key === "ArrowLeft"){
+      console.log('CAR2');
+      move(car2);
+    }
+  });
+
+
     $( document ).ready(function() {
       console.log(car1)
 
@@ -114,85 +169,80 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
 //             });
 //
 //           }
+ var $startGame = function(mycar){
+   console.log("bro i klled it");
 
+  if($rcar1.attr("id") == mycar )
+  {
+    console.log("bro i klled it x2");
+    // put the car in ready position
+      $("#red-car").removeClass("redCar");
+      $("#red-car").addClass("car-ready-position");
+
+      // // put the car in ready position
+      //   $("#blue-car").removeClass("blueCar");
+      //   $("#car2").removeClass("car-hidden");
+      //   $("#blue-car").addClass("car-ready-position2");
+  }
+
+
+
+};
 
 // when we click the car, the game starts
 $( "#car1" ).click(function() {
   console.log("we in the toggle class");
 
-// put the car in ready position
-  $("#red-car").removeClass("redCar");
-  $("#red-car").addClass("car-ready-position");
+  $startGame($( "#car1" ).attr( "id" ));
+
+
   // $("#car1"  ).toggle( "bounce", { times: 3 }, "slow" );
 });
+
+ var chooseYourCharacter;
 
 // how to switch from red to blue challe
  $('#switch-button').on('click', function (){
    console.log("we in the switch car button");
 
-   $("#car2").css('display', 'flex').hide().fadeIn(300, function () {
-     $('body').on('click', hideLightbox);
+   if( $("#car2").css('display') ==  "none")
+   {
 
-     $('#car1').css('display', 'none').hide().fadeOut(300, function (){
-       console.log("we in the fadeout for the mockup function")
+     // chooseYourCharacter = setInterval(function(){
+       // console.log("we in the if");
+
+
+
+
+
+
+
+     $("#car2").css('display', 'flex').hide().fadeIn(300, function () {
+       $('body').on('click', hideLightbox);
      });
-   });
+
+       $('#car1').css('display', 'none').hide().fadeOut(600, function (){
+         console.log("we in the fadeout for the mockup function")
+       });
+     }
+
+
+
+   else {
+
+     $("#car1").css('display', 'flex').hide().fadeIn(300, function () {
+       $('body').on('click', hideLightbox);
+     });
+
+       $('#car2').css('display', 'none').hide().fadeOut(600, function (){
+         console.log("we in the fadeout for the mockup function")
+       });
+
+     }
+
 
 });
 
-// VANILLA
-  var car1 = {
-    name : "RED CHALLE",
-    div : document.getElementById('car1'),
-    position: 0
-
-  }
-
-  var car2 = {
-    name : "BLUE CHALLE",
-    div : document.getElementById('car2'),
-    position: 0
-
-  }
-//
-  //set the left to 0 first
-  car1.div.style.left = 0 + "px";
-  car2.div.style.left = 0 + "px";
-// ;
-//
-function move (car)
-{
-  if(car.position > 700)
-  {
-    alert(`${car.name} WON`);
-    return;
-
-  }
-
-  else{
-    var currentRedCarPosition = parseInt(car.div.style.left, 10);
-    console.log(currentRedCarPosition);
-    var newRedCarPosition = currentRedCarPosition + 40;
-     car.div.style.left = newRedCarPosition + "px";
-     car.position = newRedCarPosition;
-
-
-  }
-
-
-}
-
-
-document.body.addEventListener('keyup',function(event){
-
-  if(event.key === 'ArrowRight'){
-    console.log('CAR1');
-    move(car1);
-  } else if(event.key === "ArrowLeft"){
-    console.log('CAR2');
-    move(car2);
-  }
-});
 
 
 // document.getElementById("car1").onclick = function()
