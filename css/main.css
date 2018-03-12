@@ -256,17 +256,6 @@ text-align: center;
 	/* padding-bottom: 0; */
 }
 
-.masonry4 {
-	column-count: 3;
-	width: 300px;
-  padding-top: 2.5em ;
-  padding-left: 10em;
-  padding-right: 10em;
-
-	/* margin: 64px 0 0;
-	margin: 4rem 0 2rem; */
-	/* padding-bottom: 0; */
-}
 
 
 
@@ -400,13 +389,26 @@ Lightbox
 }
 
 
-#logos, #stills, #flyers, #business-cards{
+#logos, #stills, #flyers, #business-cards, #cover-art{
   padding: 2em 0;
 }
 
-#logos{
+#logos, #cover-art{
   background-color: #e6d3c2;
 }
+
+.modal-blck{
+  background-color: #212121;
+  color: #b1b1b1;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 0;
+}
+
+.close{
+  color: #e6d3c2;
+}
+
 
 
 

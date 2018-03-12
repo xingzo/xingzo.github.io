@@ -5,6 +5,7 @@
     <title>Xingzo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/layer-slider.css">
       <link rel="stylesheet" href="racer-game/racer-game.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -194,8 +195,30 @@
     </section>
 
     <div class = "nav2">
-    <button class="btn btn-primary">More Videos</button>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Videos</button>
     </div>
+    <!-- Button trigger modal -->
+
+<!-- Coming SoonModal -->
+<div class="modal fade" id="comingSoonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-blck">
+        <h5 class="modal-title" id="exampleModalLabel">Please Be Patient</h5>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body modal-blck">
+        <p>Content coming soon.</p>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
 
 
 
@@ -260,7 +283,7 @@
       </div>
 
       <div class = "nav2">
-        <button class="btn btn-primary">More Websites</button>
+        <button class="btn btn-primary"  data-toggle="modal" data-target="#comingSoonModal">More Websites</button>
       </div>
 
     </section>
@@ -283,7 +306,7 @@
 
 
     <div class = "nav2">
-    <button class="btn btn-primary">More Stills</button>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Stills</button>
     </div>
 
 
@@ -295,7 +318,7 @@
         <div class="masonry masonry3">
           <img src="assets/images/logos/dream-big-parties-logo2.jpg" alt="">
           <img src="assets/images/logos/playmakers-white.jpg" alt="">
-          <img src="assets/images/logos/Broadband-mockup2.jpg" alt="">
+          <img src="assets/images/logos/Boradband-mockup2.jpg" alt="">
           <img src="assets/images/logos/Thank-you-and-your-welcome-official-logo.jpg" alt="">
           <img src="assets/images/logos/logos1.jpg" alt="">
           <img src="assets/images/logos/JIMMY-P-LOGO-black.jpg" alt="">
@@ -304,7 +327,7 @@
 
 
       <div class = "nav2">
-      <button class="btn btn-primary">More Logos</button>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Logos</button>
       </div>
 
       <!-- Flyers -->
@@ -324,34 +347,56 @@
 
 
         <div class = "nav2">
-        <button class="btn btn-primary">More Flyers</button>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Flyers</button>
         </div>
 
         <!-- Bus Cards -->
 
-          <section id = "business-cards">
-            <h4>Business Cards</h4>
-
-            <div class="row">
-            <div class="col-3">
-              <img src="assets/images/bus-cards/Serge-ent-mock-up-card-front.jpg" alt="">
-
+      <section id = "business-cards">
+        <h4>Business Cards</h4>
+          <div class="wrapper">
+            <div class="bottom">
+              <img src="assets/images/bus-cards/Serge-ent-mock-up-card-front.jpg" draggable="false"/>
             </div>
-            <div class="col-3">
-              <img src="assets/images/bus-cards/shinski-bus-card.jpg" alt="">
+            <div class="middle">
+              <img src="assets/images/bus-cards/shinski-bus-card.jpg" draggable="false"/>
+            </div>
+            <div class="scroller scroller-middle">
+              <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFCCBC"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFCCBC"/></svg>
+            </div>
+            <div class="top">
+              <img src="assets/images/bus-cards/shinski-july-4th-bus-card-mockup.jpg" draggable="false"/>
+            </div>
+            <div class="scroller scroller-top">
+              <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFAB91"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFAB91"/></svg>
+            </div>
+          </div>
 
-            </div>
-            <div class="col-3">
-              <img src="assets/images/bus-cards/shinski-july-4th-bus-card-mockup.jpg" alt="">
-
-            </div>
-            </div>
           </section>
 
-
           <div class = "nav2">
-          <button class="btn btn-primary">More Business Cards</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Business Cards</button>
           </div>
+
+          <!-- Cover-art -->
+
+            <section id = "cover-art">
+              <h4>Cover Art</h4>
+
+              <div class="masonry masonry3">
+                <img src="assets/images/cover-art/jimmy-p-east-africa-cover6.jpg" alt="">
+                <img src="assets/images/cover-art/NAIJA-OVERDOSE-5-.jpg" alt="">
+                <img src="assets/images/cover-art/naija-overdose-vol-4-vversion3.jpg" alt="">
+                <img src="assets/images/cover-art/that-aint-no-money-cover2.jpg" alt="">
+                <img src="assets/images/cover-art/zouk-overdose-mixx-cover.jpg" alt="">
+                <img src="assets/images/cover-art/when-its-lit-cover3.jpg" alt="">
+              </div>
+            </section>
+
+
+            <div class = "nav2">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Logos</button>
+            </div>
 
             </main>
 
@@ -384,9 +429,9 @@
     <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="racer-game/racer-game.js"></script>
-    <script type="text/javascript"
-
+    <script src="js/layer-slider.js"></script>
     <script src="js/main.js"></script>
+
 
   </body>
   <div class="lightbox">
