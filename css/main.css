@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
   color: #b1b1b1;
+  text-align: center;
 }
 
 /* -----------------------------------------------------
@@ -241,6 +242,33 @@ text-align: center;
 	opacity: .6;
 }
 
+/* Masonry with 3 images per row */
+
+.masonry3 {
+	column-count: 3;
+	width: 100%;
+  padding-top: 2.5em ;
+  padding-left: 10em;
+  padding-right: 10em;
+
+	/* margin: 64px 0 0;
+	margin: 4rem 0 2rem; */
+	/* padding-bottom: 0; */
+}
+
+.masonry4 {
+	column-count: 3;
+	width: 300px;
+  padding-top: 2.5em ;
+  padding-left: 10em;
+  padding-right: 10em;
+
+	/* margin: 64px 0 0;
+	margin: 4rem 0 2rem; */
+	/* padding-bottom: 0; */
+}
+
+
 
 
 
@@ -368,7 +396,16 @@ Lightbox
 
 .lightbox img {
   align-self: center;
-  width: 100%;
+  width: 800px;
+}
+
+
+#logos, #stills, #flyers, #business-cards{
+  padding: 2em 0;
+}
+
+#logos{
+  background-color: #e6d3c2;
 }
 
 
@@ -414,6 +451,11 @@ MEDIA QUiERIES
       }
       .lightbox{
         padding: 0 2.5em;
+      }
+
+      .lightbox img {
+        align-self: center;
+        width: 100%;
       }
 
     }

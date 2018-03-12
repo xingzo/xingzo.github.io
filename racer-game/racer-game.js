@@ -212,11 +212,6 @@ $( "#car1" ).click(function() {
        // console.log("we in the if");
 
 
-
-
-
-
-
      $("#car2").css('display', 'flex').hide().fadeIn(300, function () {
        $('body').on('click', hideLightbox);
      });
