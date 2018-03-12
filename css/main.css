@@ -445,10 +445,47 @@ MEDIA QUiERIES
 
 
  @media screen and (max-width: 741px) {
+   .masonry {
+     column-count: 1;
+     width: 100%;
+     padding: 2.5em;
+   }
+   .lightbox{
+     padding: 0 2.5em;
+   }
 
+   .lightbox img {
+     align-self: center;
+     width: 100%;
+   }
+
+   .website-mockup, .website-title{
+     display: none;
+   }
+   .iphone-mockup{
+     text-align: center;
+     display: block;
+     padding-bottom: 2em;
+   }
+
+
+
+    }
+
+
+
+    /* @media only screen
+        and (max-width: 700px){
+
+          } */
+
+    @media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
       .masonry {
-      	column-count: 1;
-      	width: 100%;
+        column-count: 1;
+        width: 100%;
         padding: 2.5em;
       }
       .lightbox{
@@ -460,9 +497,6 @@ MEDIA QUiERIES
         width: 100%;
       }
 
-    }
-
-    @media screen and (max-width: 686px) {
       .website-mockup, .website-title{
         display: none;
       }
