@@ -27,7 +27,7 @@
   //
   function move (car)
   {
-    if(car.position > 700)
+    if(car.position > 360)
     {
       alert(`${car.name} WON`);
       return;
@@ -175,6 +175,9 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
   if($rcar1.attr("id") == mycar )
   {
     console.log("bro i klled it x2");
+     $("#pick-car").empty();
+    //print instructions
+    $("#directions").append(`<h2> Please use left arrow for <span style = "color: blue"> blue </span> car and right arrow for <span style = "color: red">red </span>car</h2>`)
     // put the car in ready position
       $("#red-car").removeClass("redCar");
       $("#red-car").addClass("car-ready-position");
@@ -184,6 +187,17 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
         $("#car2").removeClass("car-hidden");
         $("#car2").css('display', 'flex');
         $("#blue-car").addClass("car-ready-position2");
+
+        //display the refresh button
+        $("#switch-button").css('display', 'none');
+        $("#refresh-button").css('display', 'flex');
+
+        $('#refresh-button').on('click', function (e) {
+          window.location.href ='index.html';
+
+        });
+
+
   }
 
 
@@ -205,6 +219,11 @@ $( "#car1" ).click(function() {
 // how to switch from red to blue challe
  $('#switch-button').on('click', function (){
    console.log("we in the switch car button");
+
+      $("#pick-car").empty();
+
+   $("#pick-car").append(`<h2> Please click on <span style = "color: red">red </span>car to begin </h2>`)
+
 
    if( $("#car2").css('display') ==  "none")
    {
@@ -235,6 +254,8 @@ $( "#car1" ).click(function() {
        });
 
      }
+
+
 
 
 });
