@@ -180,9 +180,10 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
       $("#red-car").addClass("car-ready-position");
 
       // // put the car in ready position
-      //   $("#blue-car").removeClass("blueCar");
-      //   $("#car2").removeClass("car-hidden");
-      //   $("#blue-car").addClass("car-ready-position2");
+        $("#blue-car").removeClass("blueCar");
+        $("#car2").removeClass("car-hidden");
+        $("#car2").css('display', 'flex');
+        $("#blue-car").addClass("car-ready-position2");
   }
 
 
