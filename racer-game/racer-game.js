@@ -121,6 +121,7 @@ $('#racer-game').on('click', function (e) {
        // fade in the red car when start button is pressed
 
        $displayCar($rcar1);
+       $("#refresh-button").css('display', 'flex');
        // $('#car1').css('display', 'flex').hide().fadeIn(300, function () {
        //   $('body').on('click', hideLightbox);
        // });
@@ -190,12 +191,8 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
 
         //display the refresh button
         $("#switch-button").css('display', 'none');
-        $("#refresh-button").css('display', 'flex');
 
-        $('#refresh-button').on('click', function (e) {
-          window.location.href ='index.html';
 
-        });
 
 
   }
@@ -203,6 +200,11 @@ $(car).css('display', 'flex').hide().fadeIn(300, function () {
 
 
 };
+// refresh page button
+    $('#refresh-button').on('click', function (e) {
+      window.location.href ='index.html';
+
+        });
 
 // when we click the car, the game starts
 $( "#car1" ).click(function() {
