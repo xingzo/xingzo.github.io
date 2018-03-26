@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Xingzo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/layer-slider.css">
-      <link rel="stylesheet" href="racer-game/racer-game.css">
-    <link rel="stylesheet" href="css/main.css">
+<head>
+  <meta charset="utf-8">
+  <title>Xingzo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/layer-slider.css">
+  <link rel="stylesheet" href="racer-game/racer-game.css">
+  <link rel="stylesheet" href="css/main.css">
 
-  </head>
-  <body data-spy="scroll" data-target="#nav-scroll" data-offset="0">
+</head>
+<body data-spy="scroll" data-target="#nav-scroll" data-offset="0">
 
-<!-- HEADER-->
+  <!-- HEADER-->
 
-    <header id = "top">
-      <!-- logo -->
-      <!-- <img id = "logo" src="assets/images/logo1.png" alt="xingzo logo"> -->
-      <img src="assets/videos/gifs/images/xingzo-logo.gif" width="60" height="30" alt="">
-      <img src="assets/videos/gifs/images/xingzo-logo.gif" width="121" height="60" alt="">
-      <img src="assets/videos/gifs/images/xingzo-logo.gif" width="60" height="30" alt="">
+  <header id = "top">
+    <!-- logo -->
+    <!-- <img id = "logo" src="assets/images/logo1.png" alt="xingzo logo"> -->
+    <img src="assets/videos/gifs/images/xingzo-logo.gif" width="60" height="30" alt="">
+    <img src="assets/videos/gifs/images/xingzo-logo.gif" width="121" height="60" alt="">
+    <img src="assets/videos/gifs/images/xingzo-logo.gif" width="60" height="30" alt="">
 
-      <!-- <img src="assets/videos/logotrial2.gif" width="121" height="60" alt=""> -->
-      <!-- add background video here -->
-    </header>
+    <!-- <img src="assets/videos/logotrial2.gif" width="121" height="60" alt=""> -->
+    <!-- add background video here -->
+  </header>
 
-    <main>
+  <main>
 
-<!-- NAVIGATION -->
+    <!-- NAVIGATION -->
 
     <nav id = "nav-scroll" class="navbar sticky-top navbar-expand-lg navbar-dark ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,8 +36,11 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#top">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg">About </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#videos">Motion</a>
@@ -64,390 +67,401 @@
               <a class="dropdown-item" href="#"></a>
               <!-- <div class="dropdown-divider"></div> -->
               <!-- <a class="dropdown-item" href="#">everything else here</a> -->
-            <!-- </div> -->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://yml.bigcartel.com" target="_top">Shop</a>
-          </li>
+              <!-- </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://yml.bigcartel.com" target="_top">Shop</a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link disabled" data-toggle="modal" data-target="#comingSoonModal">freebies</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link disabled" data-toggle="modal" data-target="#comingSoonModal">freebies</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id = "main-content">
+
+      <!-- SLIDER -->
+
+      <section id = "slider">
+
+        <section id="portfolio">
+          <div class="content-wrapper">
+            <div class="carousel">
+              <div class="image-wrapper">
+                <img src="assets/images/slider3.png" alt="slider3 image">
+                <img src="assets/images/slider2.png" alt="slider2 image">
+                <img src="assets/images/slider3.png" alt="slider3 image">
+              </div>
+            </div>
+            <ul class="carousel-indicators">
+              <li data-slide-number="0" class="active"></li>
+              <li data-slide-number="1"></li>
+              <li data-slide-number="2"></li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
+
+
+      <!-- About ME Modal -->
+      <!-- Large modal -->
+
+      <!-- About Me Button -->
+      <div class = "nav2">
+        <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">About Me</button>
       </div>
-    </nav>
 
-<!-- SLIDER -->
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Kingsley Nyaosi</h5>
+            </div>
 
-    <section id = "slider">
+            <div class="modal-body">
+              <div class = "row">
+                <div id = "about-text" class = "col-md-6">
+                  <p>
+                    Seasoned artist with over 10+ years experience in motion/still design transitioning into the technology industry. I enjoy drawing and working with all mediums of art on my free time.
+                  </p>
+                  <hr>
 
-      <section id="portfolio">
-        <div class="content-wrapper">
-          <div class="carousel">
-            <div class="image-wrapper">
-              <img src="assets/images/slider3.png" alt="slider3 image">
-              <img src="assets/images/slider2.png" alt="slider2 image">
-              <img src="assets/images/slider3.png" alt="slider3 image">
+                  <!-- Skills Animation -->
+                  <section id="skills-animation" >
+                    <h2>My awesome skills</h2>
+                    <hr>
+                    <blockquote>
+                      <img src="assets/images/icons/pr-icon.png" alt="Adobe Premiere">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/ps-icon.png" alt="Adobe Photoshop">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/ai-icon.png" alt="Adobe Illustrator">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/ae-icon.png" alt="Adobe AfterEffects">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/lr-icon.png" alt="Adobe Lightroom">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/html-icon.png" alt="Adobe Premiere">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/javascript-icon.png" alt="Adobe Photoshop">
+                    </blockquote>
+                    <blockquote>
+                      <img src="assets/images/icons/css-icon.png" alt="Adobe Illustrator">
+                    </blockquote>
+
+                  </section>
+                  <p>
+                    Design Skills : Photoshop, Illustrator, Premiere, After Effects, Lightroom,   Cinema 4d
+                  </p>
+                  <p>
+                    Programming Skills : HTML, CSS, JavaScript, jQuery, C++, Java, SQL, GitHub,   Node.js, Angular, Ruby on Rails, React, AJAX, OOP
+                  </p>
+
+                </div>
+                <div class = "col">
+                  <img id = "about-pic" src="assets/images/about1.jpg" alt="kingsley headshot">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary">Book Me</button>
+              </div>
             </div>
           </div>
-          <ul class="carousel-indicators">
-            <li data-slide-number="0" class="active"></li>
-            <li data-slide-number="1"></li>
-            <li data-slide-number="2"></li>
-          </ul>
+        </div>
+      </div>
+
+      <!-- MAIN CONTENT -->
+
+      <!-- videos -->
+      <section id = "videos">
+        <div class="col">
+          <h4>Jayflash - clouds</h4>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"   src="https://www.youtube.com/embed/GhZt0gJmf7g?modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col">
+          <h4>L I V I N G" ONE OF ? TEE</h4>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QdtPfaFVis4?modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen></iframe>
+          </div>
         </div>
       </section>
 
-    </section>
+      <div class = "nav2">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Videos</button>
+      </div>
+      <!-- Button trigger modal -->
 
-
-<!-- About ME Modal -->
-<!-- Large modal -->
-
-    <!-- About Me Button -->
-    <div class = "nav2">
-      <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">About Me</button>
-    </div>
-
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Kingsley Nyaosi</h5>
+      <!-- Coming SoonModal -->
+      <div class="modal fade" id="comingSoonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header modal-blck">
+              <h5 class="modal-title" id="exampleModalLabel">Please Be Patient</h5>
+              <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
           </div>
-
-          <div class="modal-body">
-            <div class = "row">
-              <div id = "about-text" class = "col-md-6">
-                <p>
-                  Seasoned artist with over 10+ years experience in motion/still design transitioning into the technology industry. I enjoy drawing and working with all mediums of art on my free time.
-                </p>
-                <hr>
-
-                <!-- Skills Animation -->
-                <section id="skills-animation" >
-                  <h2>My awesome skills</h2>
-                  <hr>
-                  <blockquote>
-                    <img src="assets/images/icons/pr-icon.png" alt="Adobe Premiere">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/ps-icon.png" alt="Adobe Photoshop">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/ai-icon.png" alt="Adobe Illustrator">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/ae-icon.png" alt="Adobe AfterEffects">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/lr-icon.png" alt="Adobe Lightroom">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/html-icon.png" alt="Adobe Premiere">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/javascript-icon.png" alt="Adobe Photoshop">
-                  </blockquote>
-                  <blockquote>
-                    <img src="assets/images/icons/css-icon.png" alt="Adobe Illustrator">
-                  </blockquote>
-
-                </section>
-                <p>
-                  Design Skills : Photoshop, Illustrator, Premiere, After Effects, Lightroom,   Cinema 4d
-                </p>
-                <p>
-                  Programming Skills : HTML, CSS, JavaScript, jQuery, C++, Java, SQL, GitHub,   Node.js, Angular, Ruby on Rails, React, AJAX, OOP
-                </p>
-
-              </div>
-              <div class = "col">
-                <img id = "about-pic" src="assets/images/about1.jpg" alt="kingsley headshot">
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-secondary">Book Me</button>
-            </div>
+          <div class="modal-body modal-blck">
+            <p>Content coming soon.</p>
           </div>
-        </div>
+          <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
       </div>
-    </div>
-
-<!-- MAIN CONTENT -->
-
-      <!-- videos -->
-    <section id = "videos">
-      <div class="col">
-        <h4>Jayflash - clouds</h4>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item"   src="https://www.youtube.com/embed/GhZt0gJmf7g?modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col">
-        <h4>L I V I N G" ONE OF ? TEE</h4>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QdtPfaFVis4?modestbranding=1&autohide=1&showinfo=0&controls=0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-
-    <div class = "nav2">
-    <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Videos</button>
-    </div>
-    <!-- Button trigger modal -->
-
-<!-- Coming SoonModal -->
-<div class="modal fade" id="comingSoonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header modal-blck">
-        <h5 class="modal-title" id="exampleModalLabel">Please Be Patient</h5>
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button> -->
-      </div>
-      <div class="modal-body modal-blck">
-        <p>Content coming soon.</p>
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
     </div>
   </div>
-</div>
 
 
 
   <!-- websites -->
 
 
-    <section id = "websites">
-      <div class="content-wrapper">
-        <div class="col">
-          <h5 class = "website-title"> &#x1F3C1; racer game &#x1F3C1;</h5>
-          <button class = "btn" id = "racer-game" > start game </button>
+  <section id = "websites">
+    <div class="content-wrapper">
+      <div class="col">
+        <h5 class = "website-title"> &#x1F3C1; racer game &#x1F3C1;</h5>
+        <button class = "btn btn-primary" id = "racer-game" > start game </button>
 
-  <!-- RACE-CAR-GAME -->
-  <div id = "directions" class = "">
-
-
-  </div>
-
-  <div id = "pick-car" class = "">
+        <!-- RACE-CAR-GAME -->
+        <div id = "directions" class = "">
 
 
-  </div>
-
-          <section id = "race-game-area" class = "game-area-hidden">
-
-            <!-- <div id = "are-you-ready" class = "are-you-ready-hidden">
-              <h2> Are you ready </h2>
-
-            </div> -->
-
-
-            <!-- cars -->
-          <div id ="car1" class = "car car-hidden">
-            <img id = "red-car" class="redCar" src="racer-game/images/redcar.png"></img>
-          </div>
-          <div id="car2" class = "car car-hidden">
-            <img id="blue-car" class="blueCar" src="racer-game/images/bluecar.png"></img>
-
-          </div>
-
-          <!-- right left buttons to swtich cars -->
-          <button id = "switch-button" class = "switch-car-button"> switch car </button>
-
-
-
-          <img id = "racecar-mockup" class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
-
-          </section>
-          <img class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
-
-          <button id = "refresh-button" class = "switch-car-button" style="display: none"> refresh page to start over </button>
         </div>
-      </div>
 
-      <div class="iphone-mockup">
-        <h5>racer game</h5>
-        <img  src="assets/images/mockups/iphone-mockup.png" alt="website image">
-      </div>
+        <div id = "pick-car" class = "">
 
-      <div class="content-wrapper">
-        <div class="col">
-          <h5 class = "website-title"> &#x1F30B; geoquakes &#x1F30B;</h5>
-          <button class = "btn website-title" id = "racer-game" > Check out site </button>
-          <img class = "website-mockup" src="assets/images/mockups/macbook-geoquakes-mockup.png" alt="website image">
+
         </div>
-      </div>
+
+        <section id = "race-game-area" class = "game-area-hidden">
+
+          <!-- <div id = "are-you-ready" class = "are-you-ready-hidden">
+          <h2> Are you ready </h2>
+
+        </div> -->
 
 
-
-      <!-- iphone-mockups for mobile version -->
-
-      <div class="iphone-mockup">
-        <h5>GeoQuakes</h5>
-        <img  src="assets/images/mockups/iphone-mockup.png" alt="website image">
-      </div>
-
-      <div class = "nav2">
-        <button class="btn btn-primary"  data-toggle="modal" data-target="#comingSoonModal">More Websites</button>
-      </div>
-
-    </section>
-
-
-  <!-- STILLS/GFX -->
-
-    <section id = "stills">
-      <h4>STILLS</h4>
-
-      <div class="masonry">
-				<img src="assets/images/gfx1.png" alt="">
-        <img src="assets/images/stills/mal-6702.jpg" alt="">
-        <img src="assets/images/stills/pull-up.jpg" alt="">
-        <img src="assets/images/gfx1.png" alt="">
-        <img src="assets/images/gfx1.png" alt="">
-        <img src="assets/images/gfx1.png" alt="">
-			</div>
-    </section>
-
-
-    <div class = "nav2">
-    <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Stills</button>
-    </div>
-
-
-    <!-- LOGOS -->
-
-      <section id = "logos">
-        <h4>LOGOS</h4>
-
-        <div class="masonry masonry3">
-          <img src="assets/images/logos/dream-big-parties-logo2.jpg" alt="">
-          <img src="assets/images/logos/playmakers-white.jpg" alt="">
-          <img src="assets/images/logos/Boradband-mockup2.jpg" alt="">
-          <img src="assets/images/logos/Thank-you-and-your-welcome-official-logo.jpg" alt="">
-          <img src="assets/images/logos/logos1.jpg" alt="">
-          <img src="assets/images/logos/JIMMY-P-LOGO-black.jpg" alt="">
+        <!-- cars -->
+        <div id ="car1" class = "car car-hidden">
+          <img id = "red-car" class="redCar" src="racer-game/images/redcar.png"></img>
         </div>
+        <div id="car2" class = "car car-hidden">
+          <img id="blue-car" class="blueCar" src="racer-game/images/bluecar.png"></img>
+
+        </div>
+
+        <!-- right left buttons to swtich cars -->
+        <button id = "switch-button" class = "switch-car-button btn btn-primary"> switch car </button>
+
+
+
+        <img id = "racecar-mockup" class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
+
       </section>
+      <img class = "website-mockup" src="assets/images/mockups/mackbook1.png" alt="website image">
+
+      <button id = "refresh-button" class = "switch-car-button" style="display: none"> refresh page to start over </button>
+    </div>
+  </div>
+
+  <div class="iphone-mockup">
+    <h5>racer game</h5>
+    <img  src="assets/images/mockups/iphone-mockup.png" alt="website image">
+  </div>
+
+  <div class="content-wrapper">
+    <div class="col">
+      <h5 class = "website-title"> &#x1F30B; can you get out &#x1F30B;</h5>
+        <button class = "btn btn-primary"> <a href = "https://can-you-get-out.herokuapp.com/landing" > Check out site </a></button>
+        <button class = "btn btn-primary"> <a href = "https://github.com/Dereje24/Can-you-get-out" > Check out Code </a></button>
+        <button class = "btn btn-primary"> <a href = "https://prezi.com/p/yhu8bcsqmhwz/#present" > View Presentation </a></button>
 
 
-      <div class = "nav2">
-      <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Logos</button>
-      </div>
-
-      <!-- Flyers -->
-
-        <section id = "flyers">
-          <h4>Flyers</h4>
-
-          <div class="masonry">
-            <img src="assets/images/flyers/afro-night-insta7-800x800.jpg" alt="">
-            <img src="assets/images/flyers/RB-rendezvous-gold-insta.jpg" alt="">
-            <img src="assets/images/flyers/shinski-july-4th-flyer-saturday-only-crystal-beach5.jpg" alt="">
-            <img src="assets/images/flyers/Face2Lounge-black-and-white-party3.jpg" alt="">
-            <img src="assets/images/flyers/shinski-oklahoma-flyer-trial-6.jpg" alt="">
-            <img src="assets/images/flyers/bisa-kdei-800x800.jpg" alt="">
-          </div>
-        </section>
+      <img class = "website-mockup" src="assets/images/mockups/macbook-get-out-mockup.png" alt="website image">
 
 
-        <div class = "nav2">
-        <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Flyers</button>
-        </div>
-
-        <!-- Bus Cards -->
-
-      <section id = "business-cards">
-        <h4>Business Cards</h4>
-          <div class="wrapper">
-            <div class="bottom">
-              <img src="assets/images/bus-cards/Serge-ent-mock-up-card-front.jpg" draggable="false"/>
-            </div>
-            <div class="middle">
-              <img src="assets/images/bus-cards/shinski-bus-card.jpg" draggable="false"/>
-            </div>
-            <div class="scroller scroller-middle">
-              <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFCCBC"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFCCBC"/></svg>
-            </div>
-            <div class="top">
-              <img src="assets/images/bus-cards/shinski-july-4th-bus-card-mockup.jpg" draggable="false"/>
-            </div>
-            <div class="scroller scroller-top">
-              <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFAB91"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFAB91"/></svg>
-            </div>
-          </div>
-
-          </section>
-
-          <div class = "nav2">
-          <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Business Cards</button>
-          </div>
-
-          <!-- Cover-art -->
-
-            <section id = "cover-art">
-              <h4>Cover Art</h4>
-
-              <div class="masonry masonry3">
-                <img src="assets/images/cover-art/jimmy-p-east-africa-cover6.jpg" alt="">
-                <img src="assets/images/cover-art/NAIJA-OVERDOSE-5-.jpg" alt="">
-                <img src="assets/images/cover-art/naija-overdose-vol-4-vversion3.jpg" alt="">
-                <img src="assets/images/cover-art/that-aint-no-money-cover2.jpg" alt="">
-                <img src="assets/images/cover-art/zouk-overdose-mixx-cover.jpg" alt="">
-                <img src="assets/images/cover-art/when-its-lit-cover3.jpg" alt="">
-              </div>
-            </section>
+    </div>
+  </div>
 
 
-            <div class = "nav2">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Covers</button>
-            </div>
 
-            </main>
+  <!-- iphone-mockups for mobile version -->
 
-    <footer>
-      <div class = "content-wrapper">
-        <div class = "col">
+  <div class="iphone-mockup">
+    <h5>GeoQuakes</h5>
+    <img  src="assets/images/mockups/iphone-mockup.png" alt="website image">
+  </div>
+
+  <div class = "nav2">
+  <a id = "more-websites" class="btn btn-primary" href="#" >More Websites </a>
+  </div>
+
+</section>
+
+
+<!-- STILLS/GFX -->
+
+<section id = "stills">
+  <h4>STILLS</h4>
+
+  <div class="masonry">
+    <img src="assets/images/gfx1.png" alt="">
+    <img src="assets/images/stills/mal-6702.jpg" alt="">
+    <img src="assets/images/stills/pull-up.jpg" alt="">
+    <img src="assets/images/gfx1.png" alt="">
+    <img src="assets/images/gfx1.png" alt="">
+    <img src="assets/images/gfx1.png" alt="">
+  </div>
+</section>
+
+
+<div class = "nav2">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Stills</button>
+</div>
+
+
+<!-- LOGOS -->
+
+<section id = "logos">
+  <h4>LOGOS</h4>
+
+  <div class="masonry masonry3">
+    <img src="assets/images/logos/dream-big-parties-logo2.jpg" alt="">
+    <img src="assets/images/logos/playmakers-white.jpg" alt="">
+    <img src="assets/images/logos/Boradband-mockup2.jpg" alt="">
+    <img src="assets/images/logos/Thank-you-and-your-welcome-official-logo.jpg" alt="">
+    <img src="assets/images/logos/logos1.jpg" alt="">
+    <img src="assets/images/logos/JIMMY-P-LOGO-black.jpg" alt="">
+  </div>
+</section>
+
+
+<div class = "nav2">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Logos</button>
+</div>
+
+<!-- Flyers -->
+
+<section id = "flyers">
+  <h4>Flyers</h4>
+
+  <div class="masonry">
+    <img src="assets/images/flyers/afro-night-insta7-800x800.jpg" alt="">
+    <img src="assets/images/flyers/RB-rendezvous-gold-insta.jpg" alt="">
+    <img src="assets/images/flyers/shinski-july-4th-flyer-saturday-only-crystal-beach5.jpg" alt="">
+    <img src="assets/images/flyers/Face2Lounge-black-and-white-party3.jpg" alt="">
+    <img src="assets/images/flyers/shinski-oklahoma-flyer-trial-6.jpg" alt="">
+    <img src="assets/images/flyers/bisa-kdei-800x800.jpg" alt="">
+  </div>
+</section>
+
+
+<div class = "nav2">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Flyers</button>
+</div>
+
+<!-- Bus Cards -->
+
+ <section id = "business-cards">
+  <h4>Business Cards</h4>
+  <div class="wrapper">
+    <div class="bottom">
+      <img src="assets/images/bus-cards/Serge-ent-mock-up-card-front.jpg" draggable="false"/>
+    </div>
+    <div class="middle">
+      <img src="assets/images/bus-cards/shinski-bus-card.jpg" draggable="false"/>
+    </div>
+    <div class="scroller scroller-middle">
+      <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFCCBC"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFCCBC"/></svg>
+    </div>
+    <div class="top">
+      <img src="assets/images/bus-cards/shinski-july-4th-bus-card-mockup.jpg" draggable="false"/>
+    </div>
+    <div class="scroller scroller-top">
+      <svg class="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" style="fill:#FFAB91"/><polygon points="100 50 64 32 64 68 100 50" style="fill:#FFAB91"/></svg>
+    </div>
+  </div>
+
+</section>
+
+<div class = "nav2">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Business Cards</button>
+</div>
+
+<!-- Cover-art -->
+
+<section id = "cover-art">
+  <h4>Cover Art</h4>
+
+  <div class="masonry masonry3">
+    <img src="assets/images/cover-art/jimmy-p-east-africa-cover6.jpg" alt="">
+    <img src="assets/images/cover-art/NAIJA-OVERDOSE-5-.jpg" alt="">
+    <img src="assets/images/cover-art/naija-overdose-vol-4-vversion3.jpg" alt="">
+    <img src="assets/images/cover-art/that-aint-no-money-cover2.jpg" alt="">
+    <img src="assets/images/cover-art/zouk-overdose-mixx-cover.jpg" alt="">
+    <img src="assets/images/cover-art/when-its-lit-cover3.jpg" alt="">
+  </div>
+</section>
+
+
+ <div class = "nav2">
+  <button class="btn btn-primary" data-toggle="modal" data-target="#comingSoonModal">More Covers</button>
+</div>
+
+</section>
+
+ </main>
+
+<footer>
+  <div class = "content-wrapper">
+    <div class = "col">
       <div class = "social-media">
         <a href = "#" > <i class="fa fa-facebook-square" aria-hidden = "true"> </i></a>
         <a href = "#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-				<a href = "#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href = "#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
     </div>
 
-      <div class = "col">
-        <!-- contact me buttons -->
+    <div class = "col">
+      <!-- contact me buttons -->
       <div class="btn btn-primary">
         <a href="mailto:kingsleynyaosi@gmail.com?Subject=Hello%20world" >Email me</a>
       </div>
       <div class="btn btn-primary">
-         <a href="tel:18325733473" >Call me</a>
+        <a href="tel:18325733473" >Call me</a>
       </div>
 
-        <p class = "copyright"> &copy; 2018 Kingsley Nyaosi </p>
-        </div>
-      </div>
+      <p class = "copyright"> &copy; 2018 Kingsley Nyaosi </p>
+    </div>
+  </div>
 
-    </footer>
+</footer>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="racer-game/racer-game.js"></script>
-    <script src="js/layer-slider.js"></script>
-    <script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="racer-game/racer-game.js"></script>
+<script src="js/layer-slider.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
 
 
-  </body>
-  <div class="lightbox">
+</body>
+<div class="lightbox">
   <img src="" alt="">
 </div>
 </html>
