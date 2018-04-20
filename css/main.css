@@ -249,13 +249,23 @@ svg {
 /* -----------------------------------------------------
 HOME PAGE MAIN CONTENT
 -------------------------------------------------------- */
+.row-padding{
+  margin: 0 auto;
+}
 
 #about-pic{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 50%;
-  padding-bottom: 1em;
+  max-height: 300px;
+  /* padding-bottom: 1em; */
+  /* padding: 2em; */
+  margin: 0 auto;
 }
-#about-text{
+#about-padding{
+  margin: 0 auto;
+  padding: 20px;
+}
+.about-text{
   display: flex;
 justify-content: center;
 flex-direction: column;
