@@ -42,6 +42,25 @@ $('.carousel-indicators').on('click', 'li', function () {
 
 });
 
+$('.image-wrapper').on('click', 'img', function () {
+
+  // // Find out which project the user wants to go to
+  myDixk = $(this).data('url');
+  console.log(myDixk);
+
+  console.log("heyyyyy");
+  // Clear Timer for Carousel
+  // clearInterval(carouselTimer);
+  // // Restart Timer for Carousel
+  // carouselTimer = setInterval(timerTransition, 3000);
+  //
+
+  //
+  // // Transition that baby!!
+  // transitionSlides();
+
+});
+
 
 function transitionSlides () {
   // Find out what percentage the slide wrapper should be transitioned
